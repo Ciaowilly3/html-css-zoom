@@ -4,6 +4,7 @@
 
 *{
     margin: 0;
+    font-family: arial;
 }
 
 body{
@@ -38,9 +39,24 @@ header button{
 }
 .img-row{
     margin: 0 auto .2rem;
+    display: flex;
+    justify-content: center;
+    column-gap: .2rem;
 
 }
 
 .img-container img{
-    width: 200px;;
+    width: 200px;
+}
+.card{
+    position: relative;
+}
+.name{
+    position: absolute;
+    bottom: 3px;
+    left: 0px;
+    background-color: #4a4a4a;
+    color: white;
+    font-size: var(--small-font);
+    padding: .2rem;
 }

@@ -51,6 +51,7 @@ header button{
 .card{
     position: relative;
 }
+
 .name{
     position: absolute;
     bottom: 3px;
@@ -59,4 +60,39 @@ header button{
     color: white;
     font-size: var(--small-font);
     padding: .2rem;
+}
+
+/* stili per il footer */
+footer{
+    color: white;
+    background-color: #222222;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon-container{
+    padding: .5rem;
+    font-size: 1.8rem;
+    display: flex;
+    align-items: center;
+}
+.fa-angle-up{
+    font-size: var(--small-font);
+    padding: 0 1rem;
+}
+.align{
+    text-align: center;
+    display: block;
+    
+}
+.comand{
+    font-size: var(--small-font);
+}
+
+footer button{
+    display: block;
+    background-color: transparent;
+    color: inherit;
+    border: none;
+    font-size: 1.8rem;
 }

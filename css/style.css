@@ -72,7 +72,7 @@ footer{
 
 .icon-container{
     padding: .5rem;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     display: flex;
     align-items: center;
 }
@@ -83,6 +83,7 @@ footer{
 .align{
     text-align: center;
     display: block;
+    margin: 2px 6px;
     
 }
 .comand{
@@ -90,9 +91,26 @@ footer{
 }
 
 footer button{
-    display: block;
+    display: inline-block;
     background-color: transparent;
     color: inherit;
     border: none;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
+    margin-right: 0;
+}
+
+.fa-share-from-square{
+    color: green;
+}
+
+.end-meeting{
+    background-color: #4a4a4a;
+    color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1rem;
+}
+.end-meeting button{
+    font-size: var(--small-font);
 }
